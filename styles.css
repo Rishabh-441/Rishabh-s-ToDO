@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&family=Tilt+Warp&family=Ubuntu:wght@500&display=swap');
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+    font-family: 'Tilt Warp', cursive;
+    color: red;
+}
+input {
+    padding: 10px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form button {
+    padding: 5px;
+    border-radius: 50%;
+}
+.li-des {
+    width: fit-content;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+ul {
+    align-content: center;
+}
+
+.task-list-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+.bor {
+    height: 30px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.bor:hover {
+    border-color: yellow yellow;
+}
+
+.delete:hover {
+    color: red;
+}
+
+.done:hover {
+    color: green;
+}
+
+.box {
+    font-family: 'Roboto Slab', serif;
+}
+
+span {
+    /* background-color: red; */
+    color: red;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
